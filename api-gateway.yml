@@ -1,0 +1,11 @@
+iqs:
+  service:
+    consumerId: 9b2a2df2-dbf1-4808-bffd-024e1460354b
+    env: prod
+    name: item-setup-query-service-app
+    version: 0.0.1
+    server: itemsetupquerysvc.prod.nxgensearch.catdev.prod.walmart.com
+    readTimeout: 5000
+    serverListRefreshInterval: 60000
+    maxTotalHttpConnections: 100
+    maxConnectionsPerHost: 100
