@@ -4,7 +4,7 @@ iqs:
     env: prod
     name: item-setup-query-service-app
     version: 0.0.1
-    server: itemsetupquerysvc.pprod.nxgensearch.catdev.prod.walmart.com
+    server: itemsetupquerysvc.prod.nxgensearch.catdev.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 60000
