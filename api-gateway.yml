@@ -10,3 +10,40 @@ iqs:
     serverListRefreshInterval: 1000
     maxTotalHttpConnections: 100
     maxConnectionsPerHost: 100
+iro:
+  service:
+    consumerId: 2dbf2650-11c4-40ab-b784-11b4b1baad5d
+    env: dev
+    name: item-read-service
+    version: 2.0.0
+    server: iro-non-site-facing.prod-non-site-facing.iro.services.glb.prod.walmart.com
+    connectTimeout: 5000
+    readTimeout: 5000
+    serverListRefreshInterval: 1000
+    maxTotalHttpConnections: 100
+    maxConnectionsPerHost: 100
+partner-read:
+  service:
+    consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
+    env: dev
+    name: partnerservice-app
+    version: 1.0.0
+    server: partnerservice.stg.partnerservice.catdev.glb.prod.walmart.com
+    connectTimeout: 5000
+    readTimeout: 5000
+    serverListRefreshInterval: 1000
+    maxTotalHttpConnections: 100
+    maxConnectionsPerHost: 100
+gis:
+  service:
+    consumerId: e6966e87-45a2-4087-ba71-b2747ad218bc
+    env: dev
+    name: gis-seller-services
+    version: 1.0.0
+    server: ultra-esb.stg0.esb.platform.glb.prod.walmart.com
+    connectTimeout: 5000
+    readTimeout: 5000
+    serverListRefreshInterval: 1000
+    maxTotalHttpConnections: 100
+    maxConnectionsPerHost: 100
+     
