@@ -22,7 +22,7 @@ iro:
     serverListRefreshInterval: 1000
     maxTotalHttpConnections: 100
     maxConnectionsPerHost: 100
-partner-read:
+pss:
   service:
     consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
     env: dev
