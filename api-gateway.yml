@@ -1,10 +1,10 @@
 iqs:
   service:
-    consumerId: 9b2a2df2-dbf1-4808-bffd-024e1460354b
-    env: prod
+    consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
+    env: stg
     name: item-setup-query-service-app
     version: 0.0.1
-    server: itemsetupquerysvc.prod.nxgensearch.catdev.prod.walmart.com
+    server: itemsetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
@@ -12,11 +12,11 @@ iqs:
     maxConnectionsPerHost: 100
 iro:
   service:
-    consumerId: 2dbf2650-11c4-40ab-b784-11b4b1baad5d
-    env: dev
+    consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
+    env: stg
     name: item-read-service
     version: 2.0.0
-    server: iro-non-site-facing.prod-non-site-facing.iro.services.glb.prod.walmart.com
+    server: iro-webapp.stg0.iro.services.glb.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
