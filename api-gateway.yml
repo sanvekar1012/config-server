@@ -28,7 +28,7 @@ pss:
     env: dev
     name: partnerservice-app
     version: 1.0.0
-    server: parttnerservice.stg.partnerservice.catdev.glb.prod.walmart.com
+    server: partnerservice.stg.partnerservice.catdev.glb.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
@@ -40,7 +40,7 @@ gis:
     env: stg
     name: gis-seller-services
     version: 1.0.0
-    server: ultra-esb.stg0.esb.platform.glb.prod.walmart.com
+    server: ultra-esbb.stg0.esb.platform.glb.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
