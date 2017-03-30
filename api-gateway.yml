@@ -37,7 +37,7 @@ pss:
 gis:
   service:
     consumerId: e6966e87-45a2-4087-ba71-b2747ad218bc
-    env: dev
+    env: stg
     name: gis-seller-services
     version: 1.0.0
     server: ultra-esb.stg0.esb.platform.glb.prod.walmart.com
