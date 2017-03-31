@@ -1,6 +1,6 @@
 iqs:
   details:
-    response: sd""sd
+    response: sd"{}[]"sd
   service:
     consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
     env: stg
