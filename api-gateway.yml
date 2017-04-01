@@ -6,7 +6,7 @@ iqs:
     env: stg
     name: item-setup-query-service-app
     version: 0.0.1
-    server: itemsetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
+    server: iitemsetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
@@ -19,8 +19,8 @@ iro:
     name: item-read-service
     version: 2.0.0
     server: iro-webapp.stg0.iro.services.glb.prod.walmart.com
-    connectTimeout: 10
-    readTimeout: 10
+    connectTimeout: 5000
+    readTimeout: 5000
     serverListRefreshInterval: 1000
     maxTotalHttpConnections: 100
     maxConnectionsPerHost: 100
