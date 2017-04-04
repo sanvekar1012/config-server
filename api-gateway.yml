@@ -4,7 +4,7 @@ iqs:
     env: stg
     name: item-setup-query-service-app
     version: 0.0.1
-    server: itemssetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
+    server: itemsetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 500
