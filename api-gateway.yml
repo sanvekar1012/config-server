@@ -16,7 +16,7 @@ iro:
     env: stg
     name: item-read-service
     version: 2.0.0
-    server: iro-webapp.stg0.iro.services.glb.prod.walmart.com
+    server: iro-webappp.stg0.iro.services.glb.prod.walmart.com
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
