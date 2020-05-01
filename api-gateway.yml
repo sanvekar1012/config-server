@@ -44,6 +44,6 @@ gis:
     connectTimeout: 5000
     readTimeout: 5000
     serverListRefreshInterval: 1000
-    maxTotalHttpConnections: 100
+    maxTotalHttpConnections: 10011
     maxConnectionsPerHost: 100
      
