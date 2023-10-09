@@ -13,7 +13,7 @@ iqs:
 iro:
   service:
     consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
-    env: stg
+    env: stg1
     name: item-read-service
     version: 2.0.0
     server: iro-webapp.stg0.iro.services.glb.prod.walmart.com
@@ -25,7 +25,7 @@ iro:
 pss:
   service:
     consumerId: 22e991f3-e61f-4c46-9a16-47142ea5f6a2
-    env: dev
+    env: dev1
     name: partnerservice-app
     version: 1.0.0
     server: partnerservice.stg.partnerservice.catdev.glb.prod.walmart.com
