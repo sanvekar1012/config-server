@@ -5,7 +5,7 @@ iqs:
     name: item-setup-query-service-app
     version: 0.0.1
     server: itemsetupquerysvc.stg.nxgensearch.catdev.prod.walmart.com
-    connectTimeout: 5001
+    connectTimeout: 5003
     readTimeout: 5000
     serverListRefreshInterval: 500
     maxTotalHttpConnections: 100
